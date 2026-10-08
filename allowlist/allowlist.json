@@ -1,0 +1,13 @@
+{
+  "_comment": "Paths and substrings excluded from findings. Add test fixtures, known-safe sample code, or specific rotated/revoked keys you don't want flagged every run.",
+
+  "paths": [
+    "test_fixtures",
+    ".git",
+    "node_modules"
+  ],
+
+  "substrings": [
+    "AKIAIOSFODNN7EXAMPLE"
+  ]
+}
